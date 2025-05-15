@@ -48,16 +48,17 @@ header {
   }
   
   header .nav-link {
-    display: inline-flex;
-    justify-content: center;
-    color: white;
-    padding: 0 1rem !important;
-    font-size: 1.125rem;
-    font-weight: 500;
-    font-family: var(--oswald-font);
-    text-transform: uppercase;
-    transition: all 0.3s ease-in-out;
-  }
+  display: inline-flex;
+  justify-content: center;
+  color: #e1ba0e; /* black text */
+  padding: 0 1rem !important;
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-family: var(--oswald-font);
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
   
   header .sticky .nav-link {
     color: #333;
